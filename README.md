@@ -1,23 +1,4 @@
-Matrix Calculator by Kurt Blair
+Suppose that we have three fare dice and x is a discrete random variable which is the possible outcome of each die. So, x can take on values in {1,2,3,4,5,6}. Also suppose that y is a discrete random variable which is the sum of these three dice. So, y can take on values in {3,4,5,. . . , 18}.
 
-Contains methods to perform the following operations:
+GroupSim14: Suppose that we repeat the experiment of rolling the dice for N times. Generate the outcomes for N = 100 trials of rolling these three dice in MATLAB and save the observed values in the vectors x1, x2 and x3. Then, save the sum of the three dice in vector y
 
-
-Matrix add(Matrix m) : Add this matrix to matrix m and return the result
-
-Matrix subtract(Matrix m) : Subtract matrix m from  this matrix and return the result
-
-Matrix multiply(Matrix m) : Matrix multiplication between this matrix and matrix m. Return the result.
-
-Matrix multiply(double x) : Multiply scalar x by this matrix and return the result.
-
-boolean isSquare() : return true if the matrix is square
-
-
-Other Methods:
-
-
-void print(String filename): create a file and write the matrix in it. Use the same format as the input file.
-
-Matrix identity(int size): Static method to create an Identity square matrix of size size
-Requirements
